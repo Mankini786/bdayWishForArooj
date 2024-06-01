@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function checkAnswer() {
     const answer = document.getElementById('answer').value.trim().toLowerCase();
-    const correctAnswer = "sky"; // Replace with the correct answer
+    const correctAnswer = "Asmaan ishq hai"; // Replace with the correct answer
     const container = document.querySelector('.container');
     const message = document.getElementById('message');
     const questionBox = document.querySelector('.question-box');
